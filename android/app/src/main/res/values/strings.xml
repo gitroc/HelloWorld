@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="button_str">跳转到RN</string>
+    <string name="button_share">微信分享\n微信支付</string>
+</resources>
