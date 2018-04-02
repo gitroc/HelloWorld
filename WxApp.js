@@ -8,6 +8,7 @@ import React, {Component} from 'react';
 import {ToastAndroid, StyleSheet, Text, TouchableHighlight, View} from 'react-native';
 
 var WeChat = require('react-native-wechat');
+import Toast, {DURATION} from 'react-native-easy-toast'
 
 //import fs from 'react-native-fs';
 class CustomButton extends Component {
@@ -27,7 +28,7 @@ export default class WxApp extends Component {
     constructor(props) {
         super(props);
         //应用注册
-        WeChat.registerApp('wxbb69828630fb477f');
+        WeChat.registerApp('wx00ae1ff9e5646e91');
     }
 
     render() {
@@ -43,10 +44,11 @@ export default class WxApp extends Component {
                                           if (isInstalled) {
                                               WeChat.shareToSession({type: 'text', description: '测试微信好友分享文本'})
                                                   .catch((error) => {
-                                                      ToastAndroid.show(error.message, ToastAndroid.SHORT);
+                                                      console.log(error);
+                                                      this.refs.toast.show(error.message);
                                                   });
                                           } else {
-                                              ToastAndroid.show('没有安装微信软件，请您安装微信之后再试', ToastAndroid.SHORT);
+                                              this.refs.toast.show('没有安装微信软件，请您安装微信之后再试');
                                           }
                                       });
                               }}
@@ -64,10 +66,10 @@ export default class WxApp extends Component {
                                                   webpageUrl: 'http://www.lcode.org'
                                               })
                                                   .catch((error) => {
-                                                      ToastAndroid.show(error.message, ToastAndroid.SHORT);
+                                                      this.refs.toast.show(error.message);
                                                   });
                                           } else {
-                                              ToastAndroid.show('没有安装微信软件，请您安装微信之后再试', ToastAndroid.SHORT);
+                                              this.refs.toast.show('没有安装微信软件，请您安装微信之后再试');
                                           }
                                       });
                               }}
@@ -79,10 +81,10 @@ export default class WxApp extends Component {
                                           if (isInstalled) {
                                               WeChat.shareToTimeline({type: 'text', description: '测试微信朋友圈分享文本'})
                                                   .catch((error) => {
-                                                      ToastAndroid.show(error.message, ToastAndroid.SHORT);
+                                                      this.refs.toast.show(error.message);
                                                   });
                                           } else {
-                                              ToastAndroid.show('没有安装微信软件，请您安装微信之后再试', ToastAndroid.SHORT);
+                                              this.refs.toast.show('没有安装微信软件，请您安装微信之后再试');
                                           }
                                       });
                               }}
@@ -100,13 +102,23 @@ export default class WxApp extends Component {
                                                   webpageUrl: 'http://www.lcode.org'
                                               })
                                                   .catch((error) => {
-                                                      ToastAndroid.show(error.message, ToastAndroid.SHORT);
+                                                      this.refs.toast.show(error.message);
                                                   });
                                           } else {
-                                              ToastAndroid.show('没有安装微信软件，请您安装微信之后再试', ToastAndroid.SHORT);
+                                              this.refs.toast.show('没有安装微信软件，请您安装微信之后再试');
                                           }
                                       });
                               }}
+                />
+                <Toast
+                    ref="toast"
+                    style={{backgroundColor:'#cdcdcd'}}
+                    position='top'
+                    positionValue={200}
+                    fadeInDuration={750}
+                    fadeOutDuration={1000}
+                    opacity={0.8}
+                    textStyle={{color:'white'}}
                 />
             </View>
         );

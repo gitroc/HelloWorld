@@ -8,6 +8,7 @@
 
 import React, {Component} from 'react';
 import {NativeEventEmitter, DeviceEventEmitter, NativeModules, StyleSheet, Text, View} from 'react-native';
+import Toast, {DURATION} from 'react-native-easy-toast'
 
 let title = 'React Native世界';
 
@@ -51,6 +52,7 @@ export default class App extends Component {
     kEventEmitter(msg) {
         console.log(msg);
         this.setState({msg: msg});
+        this.refs.toast.show(msg);
     }
 
     constructor(props) {
@@ -73,7 +75,6 @@ export default class App extends Component {
                 </Text>
                 <Text style={styles.welcome}>
                 {NativeModules.RNBridgeModule.CONSTVALUE}
-                {/*{NativeModules.ToastModule.show('Awesome', NativeModules.ToastModule.SHORT)}*/}
                 </Text>
                 <Text style={styles.welcome}>
                     {this.state.msg}
@@ -90,6 +91,16 @@ export default class App extends Component {
                 <Text style={styles.welcome} onPress={this.pressPromise.bind(this)}>
                     Promise通信方式
                 </Text>
+                <Toast
+                    ref="toast"
+                    style={{backgroundColor:'#cdcdcd'}}
+                    position='top'
+                    positionValue={200}
+                    fadeInDuration={750}
+                    fadeOutDuration={1000}
+                    opacity={0.8}
+                    textStyle={{color:'white'}}
+                />
             </View>
         );
     }

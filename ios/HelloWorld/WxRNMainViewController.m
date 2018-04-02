@@ -1,40 +1,31 @@
 //
-//  ViewController.m
+//  WxRNMainViewController.m
 //  HelloWorld
 //
-//  Created by roc on 2018/3/14.
+//  Created by roc on 2018/4/1.
 //  Copyright © 2018年 Facebook. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "RNMainViewController.h"
 #import "WxRNMainViewController.h"
+#import "WxRNView.h"
 
-@interface ViewController ()
+@interface WxRNMainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation WxRNMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"原生首页";
+  self.title = @"WxRN View 首页";
+  WxRNView * wxRnView = [[WxRNView alloc] initWithFrame:self.view.bounds];
+  self.view = wxRnView;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)onClickRN {
-    RNMainViewController *vc = [[RNMainViewController alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
-}
-
-- (IBAction)onClickWxRN {
-  WxRNMainViewController *wxVc = [[WxRNMainViewController alloc] init];
-  [self.navigationController pushViewController:wxVc animated:YES];
 }
 
 /*

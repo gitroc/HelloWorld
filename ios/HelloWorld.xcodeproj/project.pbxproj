@@ -49,6 +49,8 @@
 		D848A63C206204A60077C1C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D848A638206204A60077C1C6 /* ViewController.m */; };
 		D848A6432062086A0077C1C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D848A6422062086A0077C1C6 /* LaunchScreen.xib */; };
 		D848A64E20620C590077C1C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D848A64C20620C590077C1C6 /* Main.storyboard */; };
+		D897A9B32070CA9C005F52A6 /* WxRNView.m in Sources */ = {isa = PBXBuildFile; fileRef = D897A9B22070CA9C005F52A6 /* WxRNView.m */; };
+		D897A9DD2070CB3B005F52A6 /* WxRNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D897A9DC2070CB3B005F52A6 /* WxRNMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -383,6 +385,10 @@
 		D848A638206204A60077C1C6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = HelloWorld/ViewController.m; sourceTree = "<group>"; };
 		D848A6422062086A0077C1C6 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = HelloWorld/LaunchScreen.xib; sourceTree = "<group>"; };
 		D848A64D20620C590077C1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HelloWorld/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D897A9B12070CA9C005F52A6 /* WxRNView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WxRNView.h; path = HelloWorld/WxRNView.h; sourceTree = "<group>"; };
+		D897A9B22070CA9C005F52A6 /* WxRNView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WxRNView.m; path = HelloWorld/WxRNView.m; sourceTree = "<group>"; };
+		D897A9DB2070CB3B005F52A6 /* WxRNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WxRNMainViewController.h; path = HelloWorld/WxRNMainViewController.h; sourceTree = "<group>"; };
+		D897A9DC2070CB3B005F52A6 /* WxRNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WxRNMainViewController.m; path = HelloWorld/WxRNMainViewController.m; sourceTree = "<group>"; };
 		EA45E17CE4594AF5A662E2D7 /* libRCTWeChat.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTWeChat.a; sourceTree = "<group>"; };
 		F7BA7F6D8B004A408910073C /* RCTWeChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RCTWeChatTests.xctest; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -546,6 +552,10 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				D897A9B12070CA9C005F52A6 /* WxRNView.h */,
+				D897A9B22070CA9C005F52A6 /* WxRNView.m */,
+				D897A9DB2070CB3B005F52A6 /* WxRNMainViewController.h */,
+				D897A9DC2070CB3B005F52A6 /* WxRNMainViewController.m */,
 			);
 			name = HelloWorld;
 			sourceTree = "<group>";
@@ -1232,6 +1242,8 @@
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				D848A63A206204A60077C1C6 /* RNView.m in Sources */,
 				D848A639206204A60077C1C6 /* RNBridgeModule.m in Sources */,
+				D897A9DD2070CB3B005F52A6 /* WxRNMainViewController.m in Sources */,
+				D897A9B32070CA9C005F52A6 /* WxRNView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1357,7 +1369,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xinlonghang.easyrongstreet.investor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocday;
 				PRODUCT_NAME = HelloWorld;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1385,7 +1397,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xinlonghang.easyrongstreet.investor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocday;
 				PRODUCT_NAME = HelloWorld;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
