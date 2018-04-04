@@ -112,7 +112,7 @@ export default class WxApp extends Component {
                 />
                 <Toast
                     ref="toast"
-                    style={{backgroundColor:'#cdcdcd'}}
+                    style={{backgroundColor:'#434343'}}
                     position='top'
                     positionValue={200}
                     fadeInDuration={750}
