@@ -3,7 +3,10 @@ package com.rocday;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+
+import cn.reactnative.modules.update.UpdateContext;
 import cn.reactnative.modules.update.UpdatePackage;
+
 import com.theweflex.react.WeChatPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -21,7 +24,7 @@ public class MainApplication extends Application implements ReactApplication {
         @Nullable
         @Override
         protected String getJSBundleFile() {
-            return super.getJSBundleFile();
+            return UpdateContext.getBundleUrl(MainApplication.this);
         }
 
         @Override
@@ -33,7 +36,7 @@ public class MainApplication extends Application implements ReactApplication {
         protected List<ReactPackage> getPackages() {
             return Arrays.<ReactPackage>asList(
                     new MainReactPackage(),
-            new UpdatePackage(),
+                    new UpdatePackage(),
                     new WeChatPackage(),
                     new AnExampleReactPackage()
             );
