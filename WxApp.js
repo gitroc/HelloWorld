@@ -33,7 +33,7 @@ export default class WxApp extends Component {
 
     render() {
         return (
-            <View style={{margin: 20}}>
+            <View style={styles.container}>
                 <Text style={styles.welcome}>
                     微信好友/朋友圈分享实例
                 </Text>
@@ -126,7 +126,10 @@ export default class WxApp extends Component {
 }
 
 const styles = StyleSheet.create({
-
+    container: {
+        flex: 1,
+        marginTop: 80,
+    },
     welcome: {
         fontSize: 20,
         textAlign: 'center',

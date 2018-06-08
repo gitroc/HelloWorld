@@ -52,6 +52,8 @@
 		D897A9B32070CA9C005F52A6 /* WxRNView.m in Sources */ = {isa = PBXBuildFile; fileRef = D897A9B22070CA9C005F52A6 /* WxRNView.m */; };
 		D897A9DD2070CB3B005F52A6 /* WxRNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D897A9DC2070CB3B005F52A6 /* WxRNMainViewController.m */; };
 		D89F09CB207B3E7C006A0741 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D89F09CA207B3E7C006A0741 /* libbz2.1.0.tbd */; };
+		DA599C5F20CA60F10052FCEF /* UiRNUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA599C5E20CA60F10052FCEF /* UiRNUIView.m */; };
+		DA599C8F20CA63030052FCEF /* UiRNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA599C8E20CA63030052FCEF /* UiRNMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -342,6 +344,13 @@
 			remoteGlobalIDString = 86D238421BD0BB9E00C75D01;
 			remoteInfo = RCTWeChat;
 		};
+		DA599C7820CA60F20052FCEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00DFCF804DBE4F1EAB107485 /* RCTWeChat.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 10D6D7A41F160C250066F0F3;
+			remoteInfo = RCTWeChatTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -394,6 +403,10 @@
 		D897A9DB2070CB3B005F52A6 /* WxRNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WxRNMainViewController.h; path = HelloWorld/WxRNMainViewController.h; sourceTree = "<group>"; };
 		D897A9DC2070CB3B005F52A6 /* WxRNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WxRNMainViewController.m; path = HelloWorld/WxRNMainViewController.m; sourceTree = "<group>"; };
 		D89F09CA207B3E7C006A0741 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		DA599C5D20CA60F10052FCEF /* UiRNUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UiRNUIView.h; path = HelloWorld/UiRNUIView.h; sourceTree = "<group>"; };
+		DA599C5E20CA60F10052FCEF /* UiRNUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UiRNUIView.m; path = HelloWorld/UiRNUIView.m; sourceTree = "<group>"; };
+		DA599C8D20CA63030052FCEF /* UiRNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UiRNMainViewController.h; path = HelloWorld/UiRNMainViewController.h; sourceTree = "<group>"; };
+		DA599C8E20CA63030052FCEF /* UiRNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UiRNMainViewController.m; path = HelloWorld/UiRNMainViewController.m; sourceTree = "<group>"; };
 		EA45E17CE4594AF5A662E2D7 /* libRCTWeChat.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTWeChat.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -561,6 +574,10 @@
 				D897A9B22070CA9C005F52A6 /* WxRNView.m */,
 				D897A9DB2070CB3B005F52A6 /* WxRNMainViewController.h */,
 				D897A9DC2070CB3B005F52A6 /* WxRNMainViewController.m */,
+				DA599C5D20CA60F10052FCEF /* UiRNUIView.h */,
+				DA599C5E20CA60F10052FCEF /* UiRNUIView.m */,
+				DA599C8D20CA63030052FCEF /* UiRNMainViewController.h */,
+				DA599C8E20CA63030052FCEF /* UiRNMainViewController.m */,
 			);
 			name = HelloWorld;
 			sourceTree = "<group>";
@@ -707,6 +724,7 @@
 			isa = PBXGroup;
 			children = (
 				D8DCE6FE206112B300BA583F /* libRCTWeChat.a */,
+				DA599C7920CA60F20052FCEF /* RCTWeChatTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1174,6 +1192,13 @@
 			remoteRef = D8DCE6FD206112B300BA583F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		DA599C7920CA60F20052FCEF /* RCTWeChatTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RCTWeChatTests.xctest;
+			remoteRef = DA599C7820CA60F20052FCEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1255,10 +1280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA599C5F20CA60F10052FCEF /* UiRNUIView.m in Sources */,
 				D848A63C206204A60077C1C6 /* ViewController.m in Sources */,
 				D848A63B206204A60077C1C6 /* RNMainViewController.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				DA599C8F20CA63030052FCEF /* UiRNMainViewController.m in Sources */,
 				D848A63A206204A60077C1C6 /* RNView.m in Sources */,
 				D848A639206204A60077C1C6 /* RNBridgeModule.m in Sources */,
 				D897A9DD2070CB3B005F52A6 /* WxRNMainViewController.m in Sources */,

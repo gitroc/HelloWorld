@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "RNMainViewController.h"
 #import "WxRNMainViewController.h"
+#import "UiRNMainViewController.h"
 
 @interface ViewController ()
 
@@ -36,6 +37,12 @@
   WxRNMainViewController *wxVc = [[WxRNMainViewController alloc] init];
   [self.navigationController pushViewController:wxVc animated:YES];
 }
+
+- (IBAction)onClickUiRN {
+    UiRNMainViewController *uiVc = [[UiRNMainViewController alloc] init];
+    [self.navigationController pushViewController:uiVc animated:YES];
+}
+
 
 /*
 #pragma mark - Navigation

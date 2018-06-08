@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 
 class Greeting extends Component {
     render() {
         return (
-            <Text>Hello {this.props.name}!, Your ages is {this.props.age}</Text>
+            <Text style={styles.instructions}>Hello {this.props.name}!, Your ages is {this.props.age}</Text>
         );
     }
 }
@@ -26,7 +26,7 @@ class Blink extends Component {
         // 根据当前showText的值决定是否显示text内容
         let display = this.state.showText ? this.props.text : ' ';
         return (
-            <Text>{display}</Text>
+            <Text style={styles.instructions}>{display}</Text>
         );
     }
 }
@@ -34,10 +34,17 @@ class Blink extends Component {
 export default class Ui extends Component {
     render() {
         return (
-            <View style={{alignItems: 'center'}}>
+            <View style={styles.container}>
+                <Text style={styles.welcome}>
+                    Props 学习
+                </Text>
                 <Greeting name='Rexxar' />
                 <Greeting name='Jaina' />
                 <Greeting name='Valeera' age='100' />
+
+                <Text style={styles.welcome}>
+                    State 学习
+                </Text>
                 <Blink text='I love to blink' />
                 <Blink text='Yes blinking is so great' />
                 <Blink text='Why did they ever take this out of HTML' />
@@ -46,3 +53,22 @@ export default class Ui extends Component {
         );
     }
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        backgroundColor: '#F5FCFF',
+        marginTop: 80,
+    },
+    welcome: {
+        fontSize: 20,
+        textAlign: 'center',
+        margin: 10,
+    },
+    instructions: {
+        textAlign: 'center',
+        color: '#333333',
+        marginBottom: 5,
+    },
+});
