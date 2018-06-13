@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
 class Greeting extends Component {
@@ -12,12 +12,12 @@ class Greeting extends Component {
 class Blink extends Component {
     constructor(props) {
         super(props);
-        this.state = { showText: true };
+        this.state = {showText: true};
 
         // 每1000毫秒对showText状态做一次取反操作
         setInterval(() => {
             this.setState(previousState => {
-                return { showText: !previousState.showText };
+                return {showText: !previousState.showText};
             });
         }, 1000);
     }
@@ -32,23 +32,39 @@ class Blink extends Component {
 }
 
 export default class Ui extends Component {
+
+    constructor(props) {
+        super(props);
+        this.titleProps = 'Props 学习';
+        this.name = ['Rexxar', 'Jaina', 'Valeera'];
+        this.age = [0, 0, 100];
+
+        this.titleState = 'State 学习';
+        this.text = [
+            'I love to blink',
+            'Yes blinking is so great',
+            'Why did they ever take this out of HTML',
+            'Look at me look at me look at me'
+        ];
+    }
+
     render() {
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>
-                    Props 学习
+                    {this.titleProps}
                 </Text>
-                <Greeting name='Rexxar' />
-                <Greeting name='Jaina' />
-                <Greeting name='Valeera' age='100' />
+                <Greeting name={this.name[0]}/>
+                <Greeting name={this.name[1]}/>
+                <Greeting name={this.name[2]} age={this.age[3]}/>
 
                 <Text style={styles.welcome}>
-                    State 学习
+                    {this.titleState}
                 </Text>
-                <Blink text='I love to blink' />
-                <Blink text='Yes blinking is so great' />
-                <Blink text='Why did they ever take this out of HTML' />
-                <Blink text='Look at me look at me look at me' />
+                <Blink text={this.text[0]}/>
+                <Blink text={this.text[1]}/>
+                <Blink text={this.text[2]}/>
+                <Blink text={this.text[3]}/>
             </View>
         );
     }
