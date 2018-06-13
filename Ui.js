@@ -1,10 +1,16 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, BackHandler, ToastAndroid} from 'react-native';
 
 class Greeting extends Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
-            <Text style={styles.instructions}>Hello {this.props.name}!, Your ages is {this.props.age}</Text>
+            <Text style={[styles.instructions, styles.red]}>
+                Hello {this.props.name}!, Your ages is {this.props.age}
+            </Text>
         );
     }
 }
@@ -26,8 +32,20 @@ class Blink extends Component {
         // 根据当前showText的值决定是否显示text内容
         let display = this.state.showText ? this.props.text : ' ';
         return (
-            <Text style={styles.instructions}>{display}</Text>
+            <Text style={[styles.instructions, styles.bigblue]}>
+                {display}
+            </Text>
         );
+    }
+
+    componentWillReceiveProps(nextProps) {
+        const {state,props} = this
+        if (nextProps.formList.length && !this.state.formId) {
+            this.setState({ formId: nextProps.formList[0].formOriginId });
+        }
+        props.getFormTemplate({
+            formId: nextProps.formList[0].formOriginId
+        })
     }
 }
 
@@ -48,6 +66,10 @@ export default class Ui extends Component {
         ];
     }
 
+    componentWillMount() {
+        BackHandler.addEventListener('hardwareBackPress', this.onBackAndroid);
+    }
+
     render() {
         return (
             <View style={styles.container}>
@@ -56,7 +78,7 @@ export default class Ui extends Component {
                 </Text>
                 <Greeting name={this.name[0]}/>
                 <Greeting name={this.name[1]}/>
-                <Greeting name={this.name[2]} age={this.age[3]}/>
+                <Greeting name={this.name[2]} age={this.age[2]}/>
 
                 <Text style={styles.welcome}>
                     {this.titleState}
@@ -68,6 +90,19 @@ export default class Ui extends Component {
             </View>
         );
     }
+
+    componentDidMount() {
+
+    }
+
+    componentWillUnmount() {
+        BackHandler.removeEventListener('hardwareBackPress', this.onBackAndroid);
+    }
+
+    onBackAndroid = () => {
+        ToastAndroid.show('再按一次退出应用', ToastAndroid.SHORT);
+    }
+
 }
 
 const styles = StyleSheet.create({
@@ -86,5 +121,14 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         color: '#333333',
         marginBottom: 5,
+    },
+
+    bigblue: {
+        color: 'blue',
+        fontWeight: 'bold',
+        fontSize: 16,
+    },
+    red: {
+        color: 'red',
     },
 });
