@@ -1,14 +1,14 @@
 //
-//  Ui.m
+//  UiApp.m
 //  HelloWorld
 //
 //  Created by 宋军鹏 on 2018/6/8.
 //  Copyright © 2018年 Facebook. All rights reserved.
 //
 
-#import "Ui.h"
+#import "UiApp.h"
 
-@implementation Ui
+@implementation UiApp
 
 /*
 // Only override drawRect: if you perform custom drawing.

@@ -10,6 +10,6 @@ public class UiNativeActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "Ui";
+        return "UiApp";
     }
 }

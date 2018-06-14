@@ -49,7 +49,7 @@ class Blink extends Component {
     }
 }
 
-export default class Ui extends Component {
+export default class UiApp extends Component {
 
     constructor(props) {
         super(props);
