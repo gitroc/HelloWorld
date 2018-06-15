@@ -209,9 +209,9 @@ export default class App extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        alignItems: 'center',
-        backgroundColor: '#F5FCFF',
-        marginTop: 80,
+        flexDirection: 'column',
+        backgroundColor: 'transparent',
+        paddingTop: 80
     },
     welcome: {
         fontSize: 20,

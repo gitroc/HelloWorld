@@ -128,7 +128,9 @@ export default class WxApp extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: 80,
+        flexDirection: 'column',
+        backgroundColor: 'transparent',
+        paddingTop: 80
     },
     welcome: {
         fontSize: 20,

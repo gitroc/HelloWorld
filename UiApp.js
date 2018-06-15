@@ -80,6 +80,8 @@ export default class UiApp extends Component {
                 <Greeting name={this.name[1]}/>
                 <Greeting name={this.name[2]} age={this.age[2]}/>
 
+                <View style={styles.dividingLine}/>
+
                 <Text style={styles.welcome}>
                     {this.titleState}
                 </Text>
@@ -108,9 +110,13 @@ export default class UiApp extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        alignItems: 'center',
-        backgroundColor: '#F5FCFF',
-        marginTop: 80,
+        flexDirection: 'column',
+        backgroundColor: 'transparent',
+        paddingTop: 80
+    },
+    dividingLine: {
+        height: 10,
+        backgroundColor: '#666666'
     },
     welcome: {
         fontSize: 20,
