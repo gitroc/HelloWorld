@@ -22,7 +22,7 @@ class Blink extends Component {
 
         // 每1000毫秒对showText状态做一次取反操作
         setInterval(() => {
-            this.setState(previousState => {
+            this.setState((previousState) => {
                 return {showText: !previousState.showText};
             });
         }, 1000);
@@ -39,18 +39,17 @@ class Blink extends Component {
     }
 
     componentWillReceiveProps(nextProps) {
-        const {state,props} = this
+        const {state, props} = this;
         if (nextProps.formList.length && !this.state.formId) {
-            this.setState({ formId: nextProps.formList[0].formOriginId });
+            this.setState({formId: nextProps.formList[0].formOriginId});
         }
         props.getFormTemplate({
             formId: nextProps.formList[0].formOriginId
-        })
+        });
     }
 }
 
-export default class UiApp extends Component {
-
+export default class Home extends Component {
     constructor(props) {
         super(props);
         this.titleProps = 'Props 学习';
@@ -121,20 +120,20 @@ const styles = StyleSheet.create({
     welcome: {
         fontSize: 20,
         textAlign: 'center',
-        margin: 10,
+        margin: 10
     },
     instructions: {
         textAlign: 'center',
         color: '#333333',
-        marginBottom: 5,
+        marginBottom: 5
     },
 
     bigblue: {
         color: 'blue',
         fontWeight: 'bold',
-        fontSize: 16,
+        fontSize: 16
     },
     red: {
-        color: 'red',
-    },
+        color: 'red'
+    }
 });
