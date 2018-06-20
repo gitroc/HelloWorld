@@ -32,20 +32,20 @@ class Blink extends Component {
         // 根据当前showText的值决定是否显示text内容
         let display = this.state.showText ? this.props.text : ' ';
         return (
-            <Text style={[styles.instructions, styles.bigblue]}>
+            <Text style={[styles.instructions, styles.bigBlue]}>
                 {display}
             </Text>
         );
     }
 
     componentWillReceiveProps(nextProps) {
-        const {state, props} = this;
-        if (nextProps.formList.length && !this.state.formId) {
-            this.setState({formId: nextProps.formList[0].formOriginId});
-        }
-        props.getFormTemplate({
-            formId: nextProps.formList[0].formOriginId
-        });
+        // const {state, props} = this;
+        // if (nextProps.formList.length && !this.state.formId) {
+        //     this.setState({formId: nextProps.formList[0].formOriginId});
+        // }
+        // props.getFormTemplate({
+        //     formId: nextProps.formList[0].formOriginId
+        // });
     }
 }
 
@@ -93,7 +93,7 @@ export default class Home extends Component {
     }
 
     componentDidMount() {
-
+        console.log('componentDidMount');
     }
 
     componentWillUnmount() {
@@ -122,16 +122,15 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         margin: 10
     },
+    bigBlue: {
+        color: 'blue',
+        fontWeight: 'bold',
+        fontSize: 16
+    },
     instructions: {
         textAlign: 'center',
         color: '#333333',
         marginBottom: 5
-    },
-
-    bigblue: {
-        color: 'blue',
-        fontWeight: 'bold',
-        fontSize: 16
     },
     red: {
         color: 'red'

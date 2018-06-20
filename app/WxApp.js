@@ -4,6 +4,8 @@
  * @flow
  */
 
+'use strict';
+
 import React, {Component} from 'react';
 import {ToastAndroid, StyleSheet, Text, TouchableHighlight, View} from 'react-native';
 
