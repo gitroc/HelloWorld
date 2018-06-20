@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "metro-bundler": "^0.22.1",
-    "react": "16.3.0-alpha.1",
-    "react-native": "0.54.0",
+    "react": "16.2.0",
+    "react-native": "0.52.2",
     "react-native-easy-toast": "^1.1.0",
     "react-native-tab-navigator": "^0.3.4",
     "react-native-update": "^5.0.0",

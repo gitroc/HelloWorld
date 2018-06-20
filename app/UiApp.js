@@ -6,13 +6,12 @@
 
 'use strict';
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import {StyleSheet, Dimensions} from 'react-native';
 import TabNavigator from 'react-native-tab-navigator';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Home from './Home';
 import User from './User';
-
 
 const deviceW = Dimensions.get('window').width;
 
@@ -33,7 +32,7 @@ export default class UiApp extends Component {
     }
 
     updateTab(tab) {
-        this.setState(tab);
+        this.setState({tab});
     }
 
     render() {
@@ -49,7 +48,7 @@ export default class UiApp extends Component {
                     renderSelectedIcon={() => {
                         return <Icon name="home" size={px2dp(22)} color="#3496f0"/>;
                     }}
-                    badgeText="17"
+                    badgeText="07"
                     onPress={() => {
                         return this.updateTab({selectedTab: 'home'});
                     }}>
