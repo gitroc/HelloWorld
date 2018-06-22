@@ -7,19 +7,11 @@
 'use strict';
 
 import React, { Component } from 'react';
-import {StyleSheet, Dimensions} from 'react-native';
+import {StyleSheet, Image} from 'react-native';
 import TabNavigator from 'react-native-tab-navigator';
-import Icon from 'react-native-vector-icons/FontAwesome';
 import Home from './Home';
 import User from './User';
-
-const deviceW = Dimensions.get('window').width;
-
-const basePx = 375;
-
-function px2dp(px) {
-    return px * deviceW / basePx;
-}
+import Icon from './resource/tab/index';
 
 export default class UiApp extends Component {
     constructor(props) {
@@ -43,10 +35,10 @@ export default class UiApp extends Component {
                     title="Home"
                     selectedTitleStyle={{color: '#3496f0'}}
                     renderIcon={() => {
-                        return <Icon name="home" size={px2dp(22)} color="#666"/>;
+                        return <Image source={Icon.TabIcon.home} />;
                     }}
                     renderSelectedIcon={() => {
-                        return <Icon name="home" size={px2dp(22)} color="#3496f0"/>;
+                        return <Image source={Icon.TabIcon.homeSelected} />;
                     }}
                     badgeText="07"
                     onPress={() => {
@@ -59,10 +51,10 @@ export default class UiApp extends Component {
                     title="User"
                     selectedTitleStyle={{color: '#3496f0'}}
                     renderIcon={() => {
-                        return <Icon name="user" size={px2dp(22)} color="#666"/>;
+                        return <Image source={Icon.TabIcon.user} />;
                     }}
                     renderSelectedIcon={() => {
-                        return <Icon name="user" size={px2dp(22)} color="#3496f0"/>;
+                        return <Image source={Icon.TabIcon.userSelected} />;
                     }}
                     onPress={() => {
                         return this.updateTab({selectedTab: 'user'});

@@ -8,15 +8,13 @@
     "lint": "eslint ./app --cache --ignore-pattern .gitignore"
   },
   "dependencies": {
-    "metro-bundler": "^0.22.1",
     "react": "16.2.0",
     "react-native": "0.52.2",
     "react-native-easy-toast": "^1.1.0",
     "react-native-tab-navigator": "^0.3.4",
     "react-native-update": "^5.0.0",
-    "react-native-vector-icons": "^4.6.0",
     "react-native-wechat": "^1.9.9",
-    "react-navigation": "^2.3.1"
+    "react-navigation": "^2.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",

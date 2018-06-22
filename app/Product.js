@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
 import {StyleSheet, Button, View} from 'react-native';
 
-export default class User extends Component {
+export default class Product extends Component {
     render() {
         const {navigate} = this.props.navigation;
         return (
             <View style={styles.container}>
                 <Button
                     style={styles.welcome}
-                    title="Go to Roc's Product"
+                    title="Go to Roc's User"
                     onPress={() => {
-                        navigate('Product', {name: 'Jane'});
+                        navigate('Tab', {name: 'Jane'});
                     }}
                 />
             </View>

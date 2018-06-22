@@ -39,7 +39,7 @@
 #endif
     
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                        moduleName:@"UiApp"
+                                                        moduleName:@"TabApp"
                                                  initialProperties:nil
                                                      launchOptions:nil];
     

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, View, BackHandler, ToastAndroid} from 'react-native';
+import {StyleSheet, Text, Button, View, BackHandler, ToastAndroid} from 'react-native';
 
 class Greeting extends Component {
     constructor(props) {
@@ -70,6 +70,7 @@ export default class Home extends Component {
     }
 
     render() {
+        const {navigate} = this.props.navigation;
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>
@@ -88,6 +89,14 @@ export default class Home extends Component {
                 <Blink text={this.text[1]}/>
                 <Blink text={this.text[2]}/>
                 <Blink text={this.text[3]}/>
+
+                <Button
+                    style={styles.welcome}
+                    title="Go to Roc's Product"
+                    onPress={() => {
+                        navigate('Product', {name: 'Jane'});
+                    }}
+                />
             </View>
         );
     }

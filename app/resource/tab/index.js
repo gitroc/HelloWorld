@@ -1,10 +1,17 @@
 'use strict';
 
-import require from 'metro-bundler';
+import home from './home-icon.png';
+import homeSelected from './home-selected-icon.png';
+import user from './mine-icon.png';
+import userSelected from './mine-selected-icon.png';
 
-export const Tab = {
-    home: require('./home-icon'),
-    homeSelected: require('./home-selected-icon'),
-    user: require('./mine-icon'),
-    userSelected: require('./mine-selected-icon')
+const TabIcon = {
+    home: home,
+    homeSelected: homeSelected,
+    user: user,
+    userSelected: userSelected
+};
+
+export default {
+    TabIcon
 };
