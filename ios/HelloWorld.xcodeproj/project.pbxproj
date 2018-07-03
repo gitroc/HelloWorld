@@ -20,7 +20,6 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		2282C681CC88486FB18865F2 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE2A95346E1247B0BB23CA0A /* Zocial.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -33,19 +32,11 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HelloWorldTests.m */; };
-		3021E0E66D61463288817342 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE4ED9CE2A1C47BCACDA0A4A /* Feather.ttf */; };
-		4EE84F86CF7E40289F08937D /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D5A5F2746A46C1B813FEAE /* Foundation.ttf */; };
 		55C867567C8C4649A8CD4039 /* libRCTHotUpdate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 365795F19F9C49C5A982B8E6 /* libRCTHotUpdate.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		8A92C2576380459D9C4B3883 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BAF4FF70FC7459C8E1BB991 /* SimpleLineIcons.ttf */; };
-		91F621A9DF674A13A687C527 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC3A13E16EE4214B8182047 /* Entypo.ttf */; };
 		9BE99961DA5046A1BA2CBA38 /* libRCTWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA45E17CE4594AF5A662E2D7 /* libRCTWeChat.a */; };
-		9C0432A251C34378BC615212 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EEA9EBA2090496A840C1910 /* MaterialIcons.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		C34D3FDD7FB445B88CF7F5EC /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08D91C2564FF48A4BC520435 /* MaterialCommunityIcons.ttf */; };
-		C64CCD41D02D43E7B6305E15 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F8CBAA304B24E73B98BB4EE /* FontAwesome.ttf */; };
-		CCFD16CD885B498CA1A30598 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 350BD82FBFA64A5C82824D79 /* EvilIcons.ttf */; };
 		D81EF828207B383C0092F6A7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D81EF827207B383C0092F6A7 /* libReact.a */; };
 		D848A624206116920077C1C6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D848A5FC206116920077C1C6 /* SystemConfiguration.framework */; };
 		D848A6262061169E0077C1C6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D848A6252061169E0077C1C6 /* CoreTelephony.framework */; };
@@ -63,8 +54,6 @@
 		D89F09CB207B3E7C006A0741 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D89F09CA207B3E7C006A0741 /* libbz2.1.0.tbd */; };
 		DA599C5F20CA60F10052FCEF /* UiRNUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA599C5E20CA60F10052FCEF /* UiRNUIView.m */; };
 		DA599C8F20CA63030052FCEF /* UiRNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA599C8E20CA63030052FCEF /* UiRNMainViewController.m */; };
-		F3ADB894F7894B069AF7B144 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB5A731563E746608D845A3F /* Octicons.ttf */; };
-		FFDACDA7396E46C9AD3BB120 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 152C2D32ACD34034911BD518 /* Ionicons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -854,7 +843,7 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 23DLV7ATD9;
+						DevelopmentTeam = K8422RRJYQ;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
@@ -1380,7 +1369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 23DLV7ATD9;
+				DEVELOPMENT_TEAM = K8422RRJYQ;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1413,7 +1402,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 23DLV7ATD9;
+				DEVELOPMENT_TEAM = K8422RRJYQ;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-wechat/ios",

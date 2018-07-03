@@ -8,26 +8,26 @@
     "lint": "eslint ./app --cache --ignore-pattern .gitignore"
   },
   "dependencies": {
-    "react": "16.2.0",
-    "react-native": "0.52.2",
+    "react": "16.4.1",
+    "react-native": "0.55.4",
     "react-native-easy-toast": "^1.1.0",
     "react-native-tab-navigator": "^0.3.4",
-    "react-native-update": "^5.0.0",
+    "react-native-update": "^5.0.1",
     "react-native-wechat": "^1.9.9",
     "react-navigation": "^2.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
-    "babel-jest": "22.1.0",
+    "babel-jest": "23.2.0",
     "babel-preset-react-native": "4.0.0",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "10.0.1",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "17.0.0",
     "eslint-config-strict-react": "9.0.2",
-    "eslint-plugin-import": "1.13.0",
-    "eslint-plugin-jsx-a11y": "2.1.0",
-    "eslint-plugin-react": "6.1.1",
-    "jest": "22.1.4",
-    "react-test-renderer": "16.2.0"
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.10.0",
+    "jest": "23.2.0",
+    "react-test-renderer": "16.4.1"
   },
   "jest": {
     "preset": "react-native"

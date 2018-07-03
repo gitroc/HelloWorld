@@ -30,7 +30,7 @@ export default class WxApp extends Component {
     constructor(props) {
         super(props);
         //应用注册
-        WeChat.registerApp('wx00ae1ff9e5646e91');
+        WeChat.registerApp('wx4c7da70ee71ece6b');
     }
 
     render() {
