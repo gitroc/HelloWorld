@@ -18,8 +18,8 @@ const Tab = TabNavigator(
                             <TabBarItem
                                 tintColor={tintColor}
                                 focused={focused}
-                                normalIcon={Icon.TabIcon.home}
-                                selectIcon={Icon.TabIcon.homeSelected}
+                                normalIcon={Icon.Tab.home}
+                                selectIcon={Icon.Tab.homeSelected}
                             />
                         );
                     }
@@ -36,8 +36,8 @@ const Tab = TabNavigator(
                             <TabBarItem
                                 tintColor={tintColor}
                                 focused={focused}
-                                normalIcon={Icon.TabIcon.user}
-                                selectIcon={Icon.TabIcon.userSelected}
+                                normalIcon={Icon.Tab.user}
+                                selectIcon={Icon.Tab.userSelected}
                             />
                         );
                     }

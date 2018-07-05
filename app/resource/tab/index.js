@@ -5,7 +5,7 @@ import homeSelected from './home-selected-icon.png';
 import user from './mine-icon.png';
 import userSelected from './mine-selected-icon.png';
 
-const TabIcon = {
+const Tab = {
     home: home,
     homeSelected: homeSelected,
     user: user,
@@ -13,5 +13,5 @@ const TabIcon = {
 };
 
 export default {
-    TabIcon
+    Tab
 };

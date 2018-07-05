@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"原生首页";
+    self.title = @"吉客智能首页";
 }
 
 - (void)didReceiveMemoryWarning {

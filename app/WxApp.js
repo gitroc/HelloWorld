@@ -8,8 +8,7 @@
 
 import React, {Component} from 'react';
 import {ToastAndroid, StyleSheet, Text, TouchableHighlight, View} from 'react-native';
-
-var WeChat = require('react-native-wechat');
+import WeChat from 'react-native-wechat';
 import Toast, {DURATION} from 'react-native-easy-toast';
 
 //import fs from 'react-native-fs';

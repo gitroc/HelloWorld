@@ -8,6 +8,6 @@ react-native bundle --entry-file index.js --dev false --platform android --bundl
 
 iOS打包请使用Xcode Archive
 
-Android 打包apk包命令
-./gradlew clean
-./gradlew assembleRelease
+Android 打包apk包命令, 配置好gradle环境变量
+gradle clean
+gradle assembleRelease
