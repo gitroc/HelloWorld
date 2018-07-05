@@ -358,19 +358,19 @@
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
 		00DFCF804DBE4F1EAB107485 /* RCTWeChat.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTWeChat.xcodeproj; path = "../node_modules/react-native-wechat/ios/RCTWeChat.xcodeproj"; sourceTree = "<group>"; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* SmartGClubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartGClubTests.m; sourceTree = "<group>"; };
 		036229444A734D3FA432AFB3 /* Security.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		06D5A5F2746A46C1B813FEAE /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		08CD386C7329477FABC38E09 /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		08D91C2564FF48A4BC520435 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HelloWorld.app; path = jtkapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HelloWorld/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HelloWorld/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HelloWorld/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HelloWorld/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HelloWorld/main.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SmartGClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SmartGClub.app; path = jktapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SmartGClub/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SmartGClub/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SmartGClub/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SmartGClub/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SmartGClub/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		152C2D32ACD34034911BD518 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		190B84F8EB0F4EBDA2AAF41D /* RCTJCoreModule.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTJCoreModule.xcodeproj; path = "../node_modules/jcore-react-native/ios/RCTJCoreModule.xcodeproj"; sourceTree = "<group>"; };
@@ -402,26 +402,26 @@
 		D848A627206116AD0077C1C6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		D848A629206116BA0077C1C6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		D848A62B206116C80077C1C6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		D848A631206204A50077C1C6 /* RNBridgeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNBridgeModule.m; path = HelloWorld/RNBridgeModule.m; sourceTree = "<group>"; };
-		D848A632206204A50077C1C6 /* RNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNView.h; path = HelloWorld/RNView.h; sourceTree = "<group>"; };
-		D848A633206204A50077C1C6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = HelloWorld/ViewController.h; sourceTree = "<group>"; };
-		D848A634206204A60077C1C6 /* RNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNView.m; path = HelloWorld/RNView.m; sourceTree = "<group>"; };
-		D848A635206204A60077C1C6 /* RNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNMainViewController.h; path = HelloWorld/RNMainViewController.h; sourceTree = "<group>"; };
-		D848A636206204A60077C1C6 /* RNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNMainViewController.m; path = HelloWorld/RNMainViewController.m; sourceTree = "<group>"; };
-		D848A637206204A60077C1C6 /* RNBridgeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNBridgeModule.h; path = HelloWorld/RNBridgeModule.h; sourceTree = "<group>"; };
-		D848A638206204A60077C1C6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = HelloWorld/ViewController.m; sourceTree = "<group>"; };
-		D848A6422062086A0077C1C6 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = HelloWorld/LaunchScreen.xib; sourceTree = "<group>"; };
-		D848A64D20620C590077C1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HelloWorld/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D897A9B12070CA9C005F52A6 /* WxRNView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WxRNView.h; path = HelloWorld/WxRNView.h; sourceTree = "<group>"; };
-		D897A9B22070CA9C005F52A6 /* WxRNView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WxRNView.m; path = HelloWorld/WxRNView.m; sourceTree = "<group>"; };
-		D897A9DB2070CB3B005F52A6 /* WxRNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WxRNMainViewController.h; path = HelloWorld/WxRNMainViewController.h; sourceTree = "<group>"; };
-		D897A9DC2070CB3B005F52A6 /* WxRNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WxRNMainViewController.m; path = HelloWorld/WxRNMainViewController.m; sourceTree = "<group>"; };
+		D848A631206204A50077C1C6 /* RNBridgeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNBridgeModule.m; path = SmartGClub/RNBridgeModule.m; sourceTree = "<group>"; };
+		D848A632206204A50077C1C6 /* RNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNView.h; path = SmartGClub/RNView.h; sourceTree = "<group>"; };
+		D848A633206204A50077C1C6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = SmartGClub/ViewController.h; sourceTree = "<group>"; };
+		D848A634206204A60077C1C6 /* RNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNView.m; path = SmartGClub/RNView.m; sourceTree = "<group>"; };
+		D848A635206204A60077C1C6 /* RNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNMainViewController.h; path = SmartGClub/RNMainViewController.h; sourceTree = "<group>"; };
+		D848A636206204A60077C1C6 /* RNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNMainViewController.m; path = SmartGClub/RNMainViewController.m; sourceTree = "<group>"; };
+		D848A637206204A60077C1C6 /* RNBridgeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNBridgeModule.h; path = SmartGClub/RNBridgeModule.h; sourceTree = "<group>"; };
+		D848A638206204A60077C1C6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = SmartGClub/ViewController.m; sourceTree = "<group>"; };
+		D848A6422062086A0077C1C6 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = SmartGClub/LaunchScreen.xib; sourceTree = "<group>"; };
+		D848A64D20620C590077C1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SmartGClub/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D897A9B12070CA9C005F52A6 /* WxRNView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WxRNView.h; path = SmartGClub/WxRNView.h; sourceTree = "<group>"; };
+		D897A9B22070CA9C005F52A6 /* WxRNView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WxRNView.m; path = SmartGClub/WxRNView.m; sourceTree = "<group>"; };
+		D897A9DB2070CB3B005F52A6 /* WxRNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WxRNMainViewController.h; path = SmartGClub/WxRNMainViewController.h; sourceTree = "<group>"; };
+		D897A9DC2070CB3B005F52A6 /* WxRNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WxRNMainViewController.m; path = SmartGClub/WxRNMainViewController.m; sourceTree = "<group>"; };
 		D89F09CA207B3E7C006A0741 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
 		DA0BD4AF20EDF9CF00BE7F97 /* RCTJShareConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RCTJShareConfig.plist; sourceTree = "<group>"; };
-		DA599C5D20CA60F10052FCEF /* UiRNUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UiRNUIView.h; path = HelloWorld/UiRNUIView.h; sourceTree = "<group>"; };
-		DA599C5E20CA60F10052FCEF /* UiRNUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UiRNUIView.m; path = HelloWorld/UiRNUIView.m; sourceTree = "<group>"; };
-		DA599C8D20CA63030052FCEF /* UiRNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UiRNMainViewController.h; path = HelloWorld/UiRNMainViewController.h; sourceTree = "<group>"; };
-		DA599C8E20CA63030052FCEF /* UiRNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UiRNMainViewController.m; path = HelloWorld/UiRNMainViewController.m; sourceTree = "<group>"; };
+		DA599C5D20CA60F10052FCEF /* UiRNUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UiRNUIView.h; path = SmartGClub/UiRNUIView.h; sourceTree = "<group>"; };
+		DA599C5E20CA60F10052FCEF /* UiRNUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UiRNUIView.m; path = SmartGClub/UiRNUIView.m; sourceTree = "<group>"; };
+		DA599C8D20CA63030052FCEF /* UiRNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UiRNMainViewController.h; path = SmartGClub/UiRNMainViewController.h; sourceTree = "<group>"; };
+		DA599C8E20CA63030052FCEF /* UiRNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UiRNMainViewController.m; path = SmartGClub/UiRNMainViewController.m; sourceTree = "<group>"; };
 		EA45E17CE4594AF5A662E2D7 /* libRCTWeChat.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTWeChat.a; sourceTree = "<group>"; };
 		EE2A95346E1247B0BB23CA0A /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		FB5A731563E746608D845A3F /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
@@ -511,13 +511,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* HelloWorldTests */ = {
+		00E356EF1AD99517003FC87E /* SmartGClubTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* HelloWorldTests.m */,
+				00E356F21AD99517003FC87E /* SmartGClubTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = HelloWorldTests;
+			path = SmartGClubTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -548,7 +548,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* jktapp */ = {
+		13B07FAE1A68108700A75B9A /* SmartGClub */ = {
 			isa = PBXGroup;
 			children = (
 				DA0BD4AF20EDF9CF00BE7F97 /* RCTJShareConfig.plist */,
@@ -576,7 +576,7 @@
 				DA599C8D20CA63030052FCEF /* UiRNMainViewController.h */,
 				DA599C8E20CA63030052FCEF /* UiRNMainViewController.m */,
 			);
-			name = jktapp;
+			name = SmartGClub;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -696,9 +696,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* jktapp */,
+				13B07FAE1A68108700A75B9A /* SmartGClub */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* HelloWorldTests */,
+				00E356EF1AD99517003FC87E /* SmartGClubTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D8DCE6C2206112B300BA583F /* Recovered References */,
@@ -712,7 +712,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* HelloWorld.app */,
+				13B07F961A680F5B00A75B9A /* SmartGClub.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -773,9 +773,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* jktapp */ = {
+		13B07F861A680F5B00A75B9A /* SmartGClub */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "jktapp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SmartGClub" */;
 			buildPhases = (
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -786,9 +786,9 @@
 			);
 			dependencies = (
 			);
-			name = jktapp;
+			name = SmartGClub;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* HelloWorld.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* SmartGClub.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -811,7 +811,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "jtkapp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SmartGClub" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -890,7 +890,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* jktapp */,
+				13B07F861A680F5B00A75B9A /* SmartGClub */,
 			);
 		};
 /* End PBXProject section */
@@ -1274,7 +1274,7 @@
 					"$(SRCROOT)/../node_modules/jcore-react-native/ios/RCTJCoreModule",
 					"$(SRCROOT)/../node_modules/jshare-react-native/ios/RCTJShareModule",
 				);
-				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_FILE = SmartGClub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1287,7 +1287,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jktapp;
-				PRODUCT_NAME = jtkapp;
+				PRODUCT_NAME = SmartGClub;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1312,7 +1312,7 @@
 					"$(SRCROOT)/../node_modules/jcore-react-native/ios/RCTJCoreModule",
 					"$(SRCROOT)/../node_modules/jshare-react-native/ios/RCTJShareModule",
 				);
-				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_FILE = SmartGClub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1325,7 +1325,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jktapp;
-				PRODUCT_NAME = jtkapp;
+				PRODUCT_NAME = SmartGClub;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1413,7 +1413,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "jktapp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SmartGClub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1422,7 +1422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "jtkapp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SmartGClub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

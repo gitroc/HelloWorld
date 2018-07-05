@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/songjunpeng/workspace/react-native/HelloWorld/ios/jtkapp.xcodeproj">
+      location = "self:/Users/songjunpeng/workspace/react-native/SmartGClub/ios/SmartGClub.xcodeproj">
    </FileRef>
 </Workspace>
