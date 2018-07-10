@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appKey</key>
+	<string>6e9776bcbcfd1f1a98e3d914</string>
+	<key>channel</key>
+	<string></string>
+	<key>advertisingId</key>
+	<string></string>
+	<key>isProduction</key>
+	<false/>
+	<key>wechatAppId</key>
+	<string>wx4c7da70ee71ece6b</string>
+	<key>wechatAppSecret</key>
+	<string>608876c2f12851960a570754c305ee2d</string>
+	<key>qqAppId</key>
+	<string>1106786459</string>
+	<key>qqAppKey</key>
+	<string>TMQ38ff89uAt9dUr</string>
+</dict>
+</plist>
